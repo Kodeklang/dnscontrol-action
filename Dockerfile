@@ -1,7 +1,7 @@
 FROM alpine:3.17.2@sha256:69665d02cb32192e52e07644d76bc6f25abeb5410edc1c7a81a10ba3f0efb90a
 
-LABEL repository="https://github.com/koenrh/dnscontrol-action"
-LABEL maintainer="Koen Rouwhorst <info@koenrouwhorst.nl>"
+LABEL repository="https://github.com/Kodeklang/dnscontrol-action"
+LABEL maintainer="Julian Ravn Thrap-Meyer <julian@kodeklang.no>"
 
 LABEL "com.github.actions.name"="DNSControl"
 LABEL "com.github.actions.description"="Deploy your DNS configuration to multiple providers."
