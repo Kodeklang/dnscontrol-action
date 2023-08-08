@@ -11,13 +11,7 @@ cd "$WORKING_DIR" || exit
 
 ARGS=(
   "$@"
-   --config "$CONFIG_ABS_PATH"
 )
-
-# 'check' sub-command doesn't require credentials
-if [ "$1" != "check" ]; then
-    ARGS+=(--creds "$CREDS_ABS_PATH")
-fi
 
 IFS=
 OUTPUT="$(dnscontrol "${ARGS[@]}")"
